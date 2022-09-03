@@ -1,0 +1,38 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: darkgray;
+}
+h1 {
+font-size: bold;
+}
+.portada{
+    width: 10%;
+    float: left;
+}
+.ingreso-text{
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+}
+label{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.btn{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-size: bold;
+    color: white;
+    background: darkslategray;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.resultado{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}

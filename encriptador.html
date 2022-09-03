@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link rel="stylesheet" href="encriptador.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="titulo">Encriptar texto</h1>
+        <img  class="portada" src="alura.jpeg">
+        <main class="main">
+            <section class="ingreso-text">
+                <form>
+                    <label for="ingresaTexto">Solo letras minusculas, sin acento</label>
+                    <textarea cols="30" rows="10" class="textoIngresado" name="ingresaTexto" id="ingresaTexto" placeholder="Ingrese el texto"></textarea>
+                    <input class="btn" type="button" value="Encriptar" id="btnEncriptar">
+                    <input class="btn" type="button" value="Desencriptar" id="btnDesencriptar">
+                </form>
+            </section>
+            <section class="resultado">
+                <h2>Mensaje Encriptado</h2>
+                <textarea cols="30" rows="10" class="textoSalida" type="text" id="msg"></textarea>
+                <input class="btn" type="button" value="Copiar" id="btnCopiar">
+            </section>
+        </main>
+        <script src="funcionEcriptar.js"></script>
+        <script src="Copy.js"></script>
+    </body>
+</html>
